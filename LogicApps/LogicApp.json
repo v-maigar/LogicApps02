@@ -64,9 +64,9 @@
               "inputs": {
                 "variables": [
                   {
-                    "name": "Test",
-                    "type": "Integer",
-                    "value": 1
+                    "name": "変数①",
+                    "type": "String",
+                    "value": "初期値"
                   }
                 ]
               },
