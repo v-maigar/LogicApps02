@@ -58,7 +58,21 @@
       "properties": {
         "definition": {
           "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
-          "actions": {},
+          "actions": {
+            "変数を初期化する": {
+              "type": "InitializeVariable",
+              "inputs": {
+                "variables": [
+                  {
+                    "name": "Test",
+                    "type": "Integer",
+                    "value": 1
+                  }
+                ]
+              },
+              "runAfter": {}
+            }
+          },
           "parameters": {},
           "triggers": {
             "Recurrence": {
